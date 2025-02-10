@@ -1,0 +1,42 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/ROM/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/BranchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/EXU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/HazardControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/IDU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/IFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/LoadDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LoadDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Mux4x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/StoreDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StoreDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/WBU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WBU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/tests/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

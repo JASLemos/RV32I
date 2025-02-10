@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CPU.gen/sources_1/ip/RAM/sim/RAM.v" \
+"../../../../CPU.gen/sources_1/ip/ROM/sim/ROM.v" \
+"../../../../../../src/ALU.v" \
+"../../../../../../src/Adder.v" \
+"../../../../../../src/BranchUnit.v" \
+"../../../../../../src/CPU.v" \
+"../../../../../../src/Control.v" \
+"../../../../../../src/EXU.v" \
+"../../../../../../src/Extend.v" \
+"../../../../../../src/HazardControl.v" \
+"../../../../../../src/IDU.v" \
+"../../../../../../src/IFU.v" \
+"../../../../../../src/LoadDecoder.v" \
+"../../../../../../src/MAU.v" \
+"../../../../../../src/Mux.v" \
+"../../../../../../src/Mux4x1.v" \
+"../../../../../../src/Register.v" \
+"../../../../../../src/RegisterFile.v" \
+"../../../../../../src/StoreDecoder.v" \
+"../../../../../../src/WBU.v" \
+"../../../../../../tests/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

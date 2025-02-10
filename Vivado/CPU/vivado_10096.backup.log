@@ -1,0 +1,428 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Jan 10 17:46:21 2025
+# Process ID: 10096
+# Current directory: E:/IC/Mark III/Vivado/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17696 E:\IC\Mark III\Vivado\CPU\CPU.xpr
+# Log file: E:/IC/Mark III/Vivado/CPU/vivado.log
+# Journal file: E:/IC/Mark III/Vivado/CPU\vivado.jou
+# Running On        :DESKTOP-IQB8PGC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :AMD Ryzen 5 5500U with Radeon Graphics         
+# CPU Frequency     :2096 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :12694 MB
+# Swap memory       :10200 MB
+# Total Virtual     :22895 MB
+# Available Virtual :3506 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/IC/Mark III/Vivado/CPU/CPU.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:14 . Memory (MB): peak = 1623.875 ; gain = 207.082
+update_compile_order -fileset sources_1
+synth_design -top CPU -part xc7a50tcsg324-3 -lint 
+Command: synth_design -top CPU -part xc7a50tcsg324-3 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10476
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1988.879 ; gain = 365.004
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-11241] undeclared symbol 'PCSrcD', assumed default net type 'wire' [E:/IC/Mark III/src/IDU.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'jalE', assumed default net type 'wire' [E:/IC/Mark III/src/CPU.v:123]
+INFO: [Synth 8-11241] undeclared symbol 'jalrE', assumed default net type 'wire' [E:/IC/Mark III/src/CPU.v:124]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [E:/IC/Mark III/src/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'HazardControl' [E:/IC/Mark III/src/HazardControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HazardControl' (1#1) [E:/IC/Mark III/src/HazardControl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IFU' [E:/IC/Mark III/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [E:/IC/Mark III/src/Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (2#1) [E:/IC/Mark III/src/Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register' [E:/IC/Mark III/src/Register.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (3#1) [E:/IC/Mark III/src/Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [E:/IC/Mark III/src/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (4#1) [E:/IC/Mark III/src/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (5#1) [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (8) of module 'ROM' [E:/IC/Mark III/src/IFU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'IFU' (6#1) [E:/IC/Mark III/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDU' [E:/IC/Mark III/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/IC/Mark III/src/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (7#1) [E:/IC/Mark III/src/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/IC/Mark III/src/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (8#1) [E:/IC/Mark III/src/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extend' [E:/IC/Mark III/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extend' (9#1) [E:/IC/Mark III/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IDU' (10#1) [E:/IC/Mark III/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EXU' [E:/IC/Mark III/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux4x1' [E:/IC/Mark III/src/Mux4x1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4x1' (11#1) [E:/IC/Mark III/src/Mux4x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StoreDecoder' [E:/IC/Mark III/src/StoreDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'StoreDecoder' (12#1) [E:/IC/Mark III/src/StoreDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchUnit' [E:/IC/Mark III/src/BranchUnit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchUnit' (13#1) [E:/IC/Mark III/src/BranchUnit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/IC/Mark III/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (14#1) [E:/IC/Mark III/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EXU' (15#1) [E:/IC/Mark III/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MAU' [E:/IC/Mark III/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (16#1) [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'addra' does not match port width (8) of module 'RAM' [E:/IC/Mark III/src/MAU.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'MAU' (17#1) [E:/IC/Mark III/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WBU' [E:/IC/Mark III/src/WBU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LoadDecoder' [E:/IC/Mark III/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LoadDecoder' (18#1) [E:/IC/Mark III/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'WBU' (19#1) [E:/IC/Mark III/src/WBU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (20#1) [E:/IC/Mark III/src/CPU.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2105.559 ; gain = 481.684
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Fri Jan 10 17:47:25 2025
+| Host         : DESKTOP-IQB8PGC running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++----------+----------+--------------+----------+
+| Rule ID  | Severity | # Violations | # Waived |
++----------+----------+--------------+----------+
+| ASSIGN-5 | WARNING  | 8            | 0        |
+| ASSIGN-6 | WARNING  | 1            | 0        |
++----------+----------+--------------+----------+
+
+
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'ALUResultE' are not set. First unset bit index is 0. 
+RTL Name 'ALUResultE', Hierarchy 'CPU', File 'CPU.v', Line 21.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'ForwardAD' are not set. First unset bit index is 0. 
+RTL Name 'ForwardAD', Hierarchy 'CPU', File 'CPU.v', Line 38.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'ForwardBD' are not set. First unset bit index is 0. 
+RTL Name 'ForwardBD', Hierarchy 'CPU', File 'CPU.v', Line 38.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'PCSrcD' declared and are not set.
+RTL Name 'PCSrcD', Hierarchy 'CPU', File 'E:/IC/Mark III/src/CPU.v', Line 18.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'AD' are not set. First unset bit index is 0. 
+RTL Name 'AD', Hierarchy 'IDU', File 'IDU.v', Line 27.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'BD' are not set. First unset bit index is 0. 
+RTL Name 'BD', Hierarchy 'IDU', File 'IDU.v', Line 27.
+WARNING: [Synth 37-95] [ASSIGN-5]Found scalar variable(s) 'BranchD' declared and are not set.
+RTL Name 'BranchD', Hierarchy 'IDU', File 'E:/IC/Mark III/src/IDU.v', Line 19.
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'PCTargetMuxOut' are not set. First unset bit index is 0. 
+RTL Name 'PCTargetMuxOut', Hierarchy 'IDU', File 'IDU.v', Line 27.
+WARNING: [Synth 37-93] [ASSIGN-6]Signal 'PCSrcD' was assigned but not read. 
+RTL Name 'PCSrcD', Hierarchy 'IDU', File 'E:/IC/Mark III/src/IDU.v', Line 35.
+INFO: [Synth 37-85] Total of 9 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2105.559 ; gain = 481.684
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 2105.559 ; gain = 481.684
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/IC/Mark III/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/Vivado/2024.1/data/xsim/xsim.ini' copied to run dir:'E:/IC/Mark III/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark III/Vivado/CPU/CPU.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark III/Vivado/CPU/CPU.sim/sim_1/behav/xsim/riscvtest.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/IC/Mark III/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/ROM/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/BranchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/EXU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/HazardControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/IDU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/IFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/LoadDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LoadDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Mux4x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/StoreDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StoreDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/src/WBU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WBU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark III/tests/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/IC/Mark III/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L dist_mem_gen_v8_0_15 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L dist_mem_gen_v8_0_15 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 8 for port 'a' [E:/IC/Mark III/src/IFU.v:37]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 8 for port 'addra' [E:/IC/Mark III/src/MAU.v:20]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.HazardControl
+Compiling module xil_defaultlib.Mux
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.Adder
+Compiling module dist_mem_gen_v8_0_15.dist_mem_gen_v8_0_15(C_FAMILY="a...
+Compiling module xil_defaultlib.ROM
+Compiling module xil_defaultlib.IFU
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Extend
+Compiling module xil_defaultlib.IDU
+Compiling module xil_defaultlib.Mux4x1
+Compiling module xil_defaultlib.StoreDecoder
+Compiling module xil_defaultlib.BranchUnit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXU
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.MAU
+Compiling module xil_defaultlib.LoadDecoder
+Compiling module xil_defaultlib.WBU
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 2105.559 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/IC/Mark III/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "testbench_behav -key {Behavioral:sim_1:Functional:testbench} -tclbatch {testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: Too many words specified in data file ROM.mif
+Block Memory Generator module testbench.DUT.MemoryAccessUnit.DataMemory.inst.native_mem_module.blk_mem_gen_v8_4_8_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+$finish called at time : 350 ns : File "E:/IC/Mark III/tests/testbench.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 2105.559 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a50tcsg324-3
+Top: CPU
+INFO: [Device 21-403] Loading part xc7a50tcsg324-3
+INFO: [Device 21-9227] Part: xc7a50tcsg324-3 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3450.816 ; gain = 104.508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'PCSrcD', assumed default net type 'wire' [E:/IC/Mark III/src/IDU.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'jalE', assumed default net type 'wire' [E:/IC/Mark III/src/CPU.v:123]
+INFO: [Synth 8-11241] undeclared symbol 'jalrE', assumed default net type 'wire' [E:/IC/Mark III/src/CPU.v:124]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [E:/IC/Mark III/src/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'HazardControl' [E:/IC/Mark III/src/HazardControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HazardControl' (0#1) [E:/IC/Mark III/src/HazardControl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IFU' [E:/IC/Mark III/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [E:/IC/Mark III/src/Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (0#1) [E:/IC/Mark III/src/Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register' [E:/IC/Mark III/src/Register.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (0#1) [E:/IC/Mark III/src/Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [E:/IC/Mark III/src/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (0#1) [E:/IC/Mark III/src/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (0#1) [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (8) of module 'ROM' [E:/IC/Mark III/src/IFU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'IFU' (0#1) [E:/IC/Mark III/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDU' [E:/IC/Mark III/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/IC/Mark III/src/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (0#1) [E:/IC/Mark III/src/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/IC/Mark III/src/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (0#1) [E:/IC/Mark III/src/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extend' [E:/IC/Mark III/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extend' (0#1) [E:/IC/Mark III/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IDU' (0#1) [E:/IC/Mark III/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EXU' [E:/IC/Mark III/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux4x1' [E:/IC/Mark III/src/Mux4x1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4x1' (0#1) [E:/IC/Mark III/src/Mux4x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StoreDecoder' [E:/IC/Mark III/src/StoreDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'StoreDecoder' (0#1) [E:/IC/Mark III/src/StoreDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchUnit' [E:/IC/Mark III/src/BranchUnit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchUnit' (0#1) [E:/IC/Mark III/src/BranchUnit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/IC/Mark III/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [E:/IC/Mark III/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EXU' (0#1) [E:/IC/Mark III/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MAU' [E:/IC/Mark III/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (0#1) [E:/IC/Mark III/Vivado/CPU/.Xil/Vivado-10096-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'addra' does not match port width (8) of module 'RAM' [E:/IC/Mark III/src/MAU.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'MAU' (0#1) [E:/IC/Mark III/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WBU' [E:/IC/Mark III/src/WBU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LoadDecoder' [E:/IC/Mark III/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LoadDecoder' (0#1) [E:/IC/Mark III/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'WBU' (0#1) [E:/IC/Mark III/src/WBU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (0#1) [E:/IC/Mark III/src/CPU.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 3450.816 ; gain = 104.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 3450.816 ; gain = 104.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 3450.816 ; gain = 104.508
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'e:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/ROM/ROM.dcp' for cell 'InstructionFetchUnit/InstructionMemory'
+INFO: [Project 1-454] Reading design checkpoint 'e:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/RAM/RAM.dcp' for cell 'MemoryAccessUnit/DataMemory'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 3450.816 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/IC/Mark III/constraints/RISCV.xdc]
+Finished Parsing XDC File [E:/IC/Mark III/constraints/RISCV.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3450.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:33 ; elapsed = 00:00:20 . Memory (MB): peak = 3450.816 ; gain = 104.508
+53 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:27 . Memory (MB): peak = 3450.816 ; gain = 314.152
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 10 18:25:50 2025...

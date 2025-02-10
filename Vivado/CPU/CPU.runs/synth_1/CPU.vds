@@ -1,0 +1,340 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov 25 11:49:15 2024
+# Process ID: 17960
+# Current directory: E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1
+# Command line: vivado.exe -log CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU.tcl
+# Log file: E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1/CPU.vds
+# Journal file: E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1\vivado.jou
+# Running On        :DESKTOP-IQB8PGC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :AMD Ryzen 5 5500U with Radeon Graphics         
+# CPU Frequency     :2096 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :12694 MB
+# Swap memory       :11032 MB
+# Total Virtual     :23727 MB
+# Available Virtual :4771 MB
+#-----------------------------------------------------------
+source CPU.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 514.840 ; gain = 199.883
+Command: read_checkpoint -auto_incremental -incremental {E:/IC/Mark III/Vivado/CPU/CPU.srcs/utils_1/imports/synth_1/CPU.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/IC/Mark III/Vivado/CPU/CPU.srcs/utils_1/imports/synth_1/CPU.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top CPU -part xc7a50tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Device 21-403] Loading part xc7a50tcsg324-3
+INFO: [Device 21-9227] Part: xc7a50tcsg324-3 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 8464
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1376.750 ; gain = 448.465
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'PCSrcD', assumed default net type 'wire' [E:/IC/Mark III/src/IDU.v:35]
+INFO: [Synth 8-11241] undeclared symbol 'jalE', assumed default net type 'wire' [E:/IC/Mark III/src/CPU.v:124]
+INFO: [Synth 8-11241] undeclared symbol 'jalrE', assumed default net type 'wire' [E:/IC/Mark III/src/CPU.v:125]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [E:/IC/Mark III/src/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'HazardControl' [E:/IC/Mark III/src/HazardControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HazardControl' (0#1) [E:/IC/Mark III/src/HazardControl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IFU' [E:/IC/Mark III/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [E:/IC/Mark III/src/Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (0#1) [E:/IC/Mark III/src/Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register' [E:/IC/Mark III/src/Register.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (0#1) [E:/IC/Mark III/src/Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [E:/IC/Mark III/src/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (0#1) [E:/IC/Mark III/src/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1/.Xil/Vivado-17960-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (0#1) [E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1/.Xil/Vivado-17960-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (8) of module 'ROM' [E:/IC/Mark III/src/IFU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'IFU' (0#1) [E:/IC/Mark III/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDU' [E:/IC/Mark III/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/IC/Mark III/src/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (0#1) [E:/IC/Mark III/src/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/IC/Mark III/src/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (0#1) [E:/IC/Mark III/src/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extend' [E:/IC/Mark III/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extend' (0#1) [E:/IC/Mark III/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IDU' (0#1) [E:/IC/Mark III/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EXU' [E:/IC/Mark III/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux4x1' [E:/IC/Mark III/src/Mux4x1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4x1' (0#1) [E:/IC/Mark III/src/Mux4x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StoreDecoder' [E:/IC/Mark III/src/StoreDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'StoreDecoder' (0#1) [E:/IC/Mark III/src/StoreDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchUnit' [E:/IC/Mark III/src/BranchUnit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchUnit' (0#1) [E:/IC/Mark III/src/BranchUnit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/IC/Mark III/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [E:/IC/Mark III/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EXU' (0#1) [E:/IC/Mark III/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MAU' [E:/IC/Mark III/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1/.Xil/Vivado-17960-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (0#1) [E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1/.Xil/Vivado-17960-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'addra' does not match port width (8) of module 'RAM' [E:/IC/Mark III/src/MAU.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'MAU' (0#1) [E:/IC/Mark III/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WBU' [E:/IC/Mark III/src/WBU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LoadDecoder' [E:/IC/Mark III/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LoadDecoder' (0#1) [E:/IC/Mark III/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'WBU' (0#1) [E:/IC/Mark III/src/WBU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (0#1) [E:/IC/Mark III/src/CPU.v:1]
+WARNING: [Synth 8-7129] Port RST in module IDU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RegWriteE in module HazardControl is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1491.730 ; gain = 563.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1491.730 ; gain = 563.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1491.730 ; gain = 563.445
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1491.730 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/RAM/RAM/RAM_in_context.xdc] for cell 'MemoryAccessUnit/DataMemory'
+Finished Parsing XDC File [e:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/RAM/RAM/RAM_in_context.xdc] for cell 'MemoryAccessUnit/DataMemory'
+Parsing XDC File [e:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/ROM/ROM/ROM_in_context.xdc] for cell 'InstructionFetchUnit/InstructionMemory'
+Finished Parsing XDC File [e:/IC/Mark III/Vivado/CPU/CPU.gen/sources_1/ip/ROM/ROM/ROM_in_context.xdc] for cell 'InstructionFetchUnit/InstructionMemory'
+Parsing XDC File [E:/IC/Mark III/constraints/RISCV.xdc]
+Finished Parsing XDC File [E:/IC/Mark III/constraints/RISCV.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/IC/Mark III/constraints/RISCV.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CPU_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CPU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1600.031 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1600.031 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MemoryAccessUnit/DataMemory' at clock pin 'clka' is different from the actual clock period '15.000', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50tcsg324-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for MemoryAccessUnit/DataMemory. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for InstructionFetchUnit/InstructionMemory. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 16    
+	                5 Bit    Registers := 5     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   4 Input   32 Bit        Muxes := 4     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+----------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                             | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------------------------+-----------+----------------------+--------------+
+|CPU         | InstructionDecodeUnit/RF/registers_reg | Implied   | 32 x 32              | RAM32M x 12  | 
++------------+----------------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+----------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                             | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------------------------+-----------+----------------------+--------------+
+|CPU         | InstructionDecodeUnit/RF/registers_reg | Implied   | 32 x 32              | RAM32M x 12  | 
++------------+----------------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ROM           |         1|
+|2     |RAM           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |RAM      |     1|
+|2     |ROM      |     1|
+|3     |BUFG     |     1|
+|4     |CARRY4   |    66|
+|5     |LUT1     |     2|
+|6     |LUT2     |   103|
+|7     |LUT3     |    83|
+|8     |LUT4     |   299|
+|9     |LUT5     |   145|
+|10    |LUT6     |   385|
+|11    |RAM32M   |    10|
+|12    |RAM32X1D |     4|
+|13    |FDRE     |   568|
+|14    |FDSE     |     1|
+|15    |IBUF     |     2|
+|16    |OBUF     |    97|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:47 . Memory (MB): peak = 1600.406 ; gain = 563.445
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 1600.406 ; gain = 672.121
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1600.406 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 80 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 14 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1600.406 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 10 instances
+  RAM32X1D => RAM32X1D (inverted pins: WCLK) (RAMD32(x2)): 4 instances
+
+Synth Design complete | Checksum: b620cd9f
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1600.406 ; gain = 1073.695
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1600.406 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/IC/Mark III/Vivado/CPU/CPU.runs/synth_1/CPU.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file CPU_utilization_synth.rpt -pb CPU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 25 11:50:25 2024...

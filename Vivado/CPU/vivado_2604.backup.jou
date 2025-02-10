@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Nov 25 11:29:30 2024
+# Process ID: 2604
+# Current directory: E:/IC/Mark III/Vivado/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18164 E:\IC\Mark III\Vivado\CPU\CPU.xpr
+# Log file: E:/IC/Mark III/Vivado/CPU/vivado.log
+# Journal file: E:/IC/Mark III/Vivado/CPU\vivado.jou
+# Running On        :DESKTOP-IQB8PGC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :AMD Ryzen 5 5500U with Radeon Graphics         
+# CPU Frequency     :2096 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :12694 MB
+# Swap memory       :10737 MB
+# Total Virtual     :23431 MB
+# Available Virtual :8027 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/IC/Mark III/Vivado/CPU/CPU.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source testbench.tcl
+restart
+run all
+restart
+run all
+close_sim
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
