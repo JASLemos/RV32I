@@ -191,17 +191,17 @@ The processor also contains a Hazard Control Unit, which reads information from 
 
 ## Usage
 
-6. **Clone the Repository**:
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/your-repo.git
    ```
-7. **Open the Vivado Project**:
+2. **Open the Vivado Project**:
    - Navigate to the `Vivado/CPU` directory and open the project in Vivado.
-8. **Load Memory Initialization Files**:
+3. **Load Memory Initialization Files**:
    - Use the `.coe` files in the `Memory Initialization` folder to initialize the Instruction Memory.
-9. **Synthesize and Implement**:
+4. **Synthesize and Implement**:
    - Synthesize and implement the design for the Artix-7 FPGA.
-10. **Run Simulations**:
+5. **Run Simulations**:
    - Use the testbenches in the `tests` directory to verify functionality.
 
 ---
@@ -210,11 +210,11 @@ The processor also contains a Hazard Control Unit, which reads information from 
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-11. Fork the repository.
-12. Create a new branch (`git checkout -b feature/YourFeature`).
-13. Commit your changes (`git commit -m 'Add some feature'`).
-14. Push to the branch (`git push origin feature/YourFeature`).
-15. Open a pull request.
+6. Fork the repository.
+7. Create a new branch (`git checkout -b feature/YourFeature`).
+8. Commit your changes (`git commit -m 'Add some feature'`).
+9. Push to the branch (`git push origin feature/YourFeature`).
+10. Open a pull request.
 
 ---
 
