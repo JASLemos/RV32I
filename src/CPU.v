@@ -93,18 +93,11 @@ module CPU(
         .InstrD(InstrD),
         .PCD(PCD),
         .PCPlus4D(PCPlus4D),
-        //.ForwardAD(ForwardAD),
-        //.ForwardBD(ForwardBD),
         .ResultW(ResultW),
-        //.ALUResultE(ALUResultE),
-        //.ALUResultM(ALUResultM),
         .RD1E(RD1E),
         .RD2E(RD2E),
         .PCPlus4E(PCPlus4E),
         .PCE(PCE),
-        //.PCTargetD(PCTargetD),
-        //.PCTargetE(PCTargetE),
-        //.PCSrcD(PCSrcD),
         .ImmExtE(ImmExtE),
         .rdE(rdE),
         .rs1D(rs1D),
@@ -158,7 +151,6 @@ module CPU(
         .WriteDataM(WriteDataM),
         .PCPlus4M(PCPlus4M),
         .PCTargetM(PCTargetM),
-        //.ALUResultE(ALUResultE),
         .ALUResultM(ALUResultM)
       );
 
