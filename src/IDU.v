@@ -1,17 +1,14 @@
 module IDU(
     input CLK, RST, FlushE, RegWriteW,
-    //input [1:0] ForwardAD, ForwardBD,
     input [4:0] rdW,
-    input [31:0] InstrD, PCD, PCPlus4D, ResultW,// ALUResultE, ALUResultM,
-    output reg [31:0] RD1E, RD2E, PCPlus4E, ImmExtE, PCE, // PCTargetE,
-    //output [31:0] PCTargetD,
+    input [31:0] InstrD, PCD, PCPlus4D, ResultW,
+    output reg [31:0] RD1E, RD2E, PCPlus4E, ImmExtE, PCE,
     output reg [4:0] rs1E, rs2E, rdE,
     output [4:0] rs1D, rs2D,
     output reg [3:0] ALUOpE,
     output reg [2:0] StoreControlE, LoadControlE, BranchControlE,
     output reg [1:0] ResultSrcE,
     output reg RegWriteE, MemWriteE, ALUSrcE, jalE, jalrE, PCTargetSrcE
-    //output PCSrcD
   );
 
   // Control wires
@@ -73,50 +70,6 @@ module IDU(
            .ImmSrc(ImmSrcD),
            .immext(ImmExtD)
          );
-
-/*
-  Mux4x1 ForwardADMux(
-           .a(RD1D),
-           .b(ResultW),
-           .c(ALUResultM),
-           .d(ALUResultE),
-           .Sel(ForwardAD),
-           .out(AD)
-         );
-
-
-  Mux4x1 ForwardBDMux(
-           .a(RD2D),
-           .b(ResultW),
-           .c(ALUResultM),
-           .d(ALUResultE),
-           .Sel(ForwardBD),
-           .out(BD)
-         );
-
-
-  BranchUnit BU(
-               .A(AD),
-               .B(BD),
-               .BranchControl(BranchControlD),
-               .Branch(BranchD)
-             );
-
-
-  Mux PCTargetSrcMux(
-        .a(AD),
-        .b(PCD),
-        .Sel(PCTargetSrcD),
-        .out(PCTargetMuxOut)
-      );
-
-
-  Adder PCTargetAdder(
-          .a(PCTargetMuxOut),
-          .b(ImmExtD),
-          .sum(PCTargetD)
-        );
-*/
 
   // Pipeline Registers
  
