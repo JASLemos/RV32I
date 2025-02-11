@@ -224,6 +224,20 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 ---
 
+## Future Work
+
+Future work for this project could be:
+
+- Implementation of multiplication and division instructions present in the "M" extension (in progress).
+- A Instruction Cache and Data Cache.
+- Memory mapped peripherals.
+- Exceptions handling and misaligned memory access.
+- Dynamic Branch Prediction to minimize Branch penalty.
+
+Another feature that could be implemented, would be to implement the Shift instructions using a Shift register instead of a Barrel Shifter in the ALU, which could reduce the critical path even further, at the cost of Stalls in the case of a Data Hazard involving the Shift instructions, since they would be a multicycle instruction in the pipeline.
+
+---
+
 ## Contact
 
 For questions or feedback, feel free to reach out:
