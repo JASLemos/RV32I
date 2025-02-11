@@ -1,5 +1,5 @@
 module Mux4x1(
-	input [31:0] a, b, c, d,
+    input [31:0] a, b, c, d,
     input [1:0] Sel,
     output reg [31:0] out
 );
