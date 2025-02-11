@@ -4,7 +4,7 @@ module EXU(
     input [2:0] LoadControlE, StoreControlE, BranchControlE, 
     input [3:0] ALUOpE,
     input [4:0] rdE,
-    input [31:0] RD1E, RD2E, ImmExtE, PCE,PCPlus4E, /*PCTargetE,*/ ResultW,
+    input [31:0] RD1E, RD2E, ImmExtE, PCE,PCPlus4E, ResultW,
     output reg RegWriteM, MemWriteM,
     output reg [1:0] ResultSrcM,
     output reg [2:0] LoadControlM,
