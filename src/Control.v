@@ -3,8 +3,8 @@ module Control(
     input [2:0] funct3,
     input funct7,
     output reg [2:0] BranchControl,
-	output reg jalr,
-	output reg PCTargetSrc,
+    output reg jalr,
+    output reg PCTargetSrc,
     output reg jal,
     output reg [1:0] ResultSrc,
     output reg [2:0] ImmSrc,
@@ -36,8 +36,8 @@ module Control(
                     LoadControl = funct3;      // Load operation determined by funct3 
                     ALUOp = 4'b0000;           // ADD for ALU address calculation
                     ImmSrc = 3'b000;           // I-type immediate
-					PCTargetSrc = 1'bx;		   // Not a jump or branch instruction
-					jalr = 1'b0;			   // Not a jump and link register instruction
+		    PCTargetSrc = 1'bx;	       // Not a jump or branch instruction
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd19:  // I type
@@ -54,8 +54,8 @@ module Control(
                     else
                         ALUOp = {1'b0, funct3};
                     ImmSrc = 3'b000;           // I-type immediate
-					PCTargetSrc = 1'bx;        // Not a jump or branch instruction
-					jalr = 1'b0;		       // Not a jump and link register instruction
+		    PCTargetSrc = 1'bx;        // Not a jump or branch instruction
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd23:  // AUIPC
@@ -69,8 +69,8 @@ module Control(
                     LoadControl = 3'bxxx;      // Not a load instruction
                     ALUOp = 4'bxxxx;           // Whatever ALU operation
                     ImmSrc = 3'b100;           // U-type immediate
-					PCTargetSrc = 1'bx;		   // Not a jump or branch instruction
-					jalr = 1'b0;			   // Not a jump and link register instruction
+		    PCTargetSrc = 1'bx;	       // Not a jump or branch instruction
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd35:  // Stores
@@ -84,8 +84,8 @@ module Control(
                     LoadControl = 3'bxxx;      // Not a load instruction
                     ALUOp = 4'b0000;           // ADD for ALU address calculation
                     ImmSrc = 3'b001;           // S-type immediate
-					PCTargetSrc = 1'bx;		   // Not a jump or branch instruction
-					jalr = 1'b0;			   // Not a jump and link register instruction
+	            PCTargetSrc = 1'bx;	       // Not a jump or branch instruction
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd51:  // R type
@@ -99,8 +99,8 @@ module Control(
                     LoadControl = 3'bxxx;      // Not a load instruction
                     ALUOp = {funct7, funct3};  // ALU operation determined by funct3
                     ImmSrc = 3'bxxx;           // Immediate irrelevant for R-type
-					PCTargetSrc = 1'bx;		   // Not a jump or branch instruction
-					jalr = 1'b0;			   // Not a jump and link register instruction
+		    PCTargetSrc = 1'bx;	       // Not a jump or branch instruction
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd55:  // LUI
@@ -114,8 +114,8 @@ module Control(
                     LoadControl = 3'bxxx;      // Not a load instruction
                     ALUOp = 4'b1111;           // Default ALU case, result is the B operand
                     ImmSrc = 3'b100;           // U-type immediate
-					PCTargetSrc = 1'bx;		   // Not a jump or branch instruction
-					jalr = 1'b0;			   // Not a jump and link register instruction
+		    PCTargetSrc = 1'bx;	       // Not a jump or branch instruction
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd99:  // Branches
@@ -129,8 +129,8 @@ module Control(
                     LoadControl = 3'bxxx;      // Not a load instruction
                     ALUOp = 4'bxxxx;           // Whatever ALU operation
                     ImmSrc = 3'b010;           // B-type immediate
-					PCTargetSrc = 1'b0;		   // PCTarget = PC + Immediate
-					jalr = 1'b0;			   // Not a jump and link register instruction
+		    PCTargetSrc = 1'b0;	       // PCTarget = PC + Immediate
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd103:	// JALR
@@ -144,8 +144,8 @@ module Control(
                     LoadControl = 3'bxxx;      // Not a load instruction
                     ALUOp = 4'bxxxx;           // Whatever ALU operation
                     ImmSrc = 3'b000;           // I-type immediate
-					PCTargetSrc = 1'b1;		   // PCTarget = [rs1] + Immediate
-					jalr = 1'b1;			   // Jump and link register instruction
+		    PCTargetSrc = 1'b1;	       // PCTarget = [rs1] + Immediate
+		    jalr = 1'b1;	       // Jump and link register instruction
                     jal = 1'b0;                // Not a jump and link instruction
                 end
             7'd111:  // JAL
@@ -159,8 +159,8 @@ module Control(
                     LoadControl = 3'bxxx;      // Not a load instruction
                     ALUOp = 4'bxxxx;           // Whatever ALU operation
                     ImmSrc = 3'b011;           // J-type immediate
-				    PCTargetSrc = 1'b0;		   // PCTarget = PC + Immediate
-				    jalr = 1'b0;			   // Not a jump and link register instruction
+		    PCTargetSrc = 1'b0;	       // PCTarget = PC + Immediate
+		    jalr = 1'b0;	       // Not a jump and link register instruction
                     jal = 1'b1;                // Jump and link instruction
                 end
             default:  // Default case for unknown opcode
