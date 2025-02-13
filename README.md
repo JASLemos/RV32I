@@ -4,7 +4,7 @@ A simple, scalar, in order, 5 stage pipelined RISC-V RV32I CPU designed for acad
 
 - **Instruction Memory**: Synthesized as a **ROM** using Distributed Memory via Vivado IP Catalog.
 - **Data Memory**: Synthesized as a **RAM** using BRAM cells via Vivado IP Catalog.
-- **32x32 Register Bank**: Described in HDL and synthesized as a **Dual Port RAM** using BRAM cells.
+- **32x32 Register Bank**: Described in HDL and synthesized as a **Dual Port RAM** using Distributed Memory cells.
 
 ---
 
