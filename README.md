@@ -10,7 +10,7 @@ A simple, scalar, in order, 5 stage pipelined RISC-V RV32I CPU designed for acad
 
 ## Features
 
-- **Static Branch Prediction**: Branches are resolved in the 3rd pipeline stage to minimize the critical path, ensuring branches always take **3 clock cycles** to complete.
+- **Static Branch Prediction**: Branches are resolved in the 3rd pipeline stage to minimize the critical path, where branches are always predicted to **not be taken**.
 - **No Memory-Mapped Peripherals**: The CPU does not include memory-mapped peripherals.
 - **No Misaligned Memory Access Handling**: The Data Memory does not support misaligned memory access.
 
