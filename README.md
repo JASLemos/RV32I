@@ -1,6 +1,6 @@
 # RISC-V RV32I CPU for Academic Purposes
 
-A simple, scalar, in order, 5 stage pipelined RISC-V RV32I CPU designed for academic purposes, synthesized in **Vivado Design Suite** for the **Artix-7 50T FPGA**. The CPU is described in **Verilog HDL** and includes the following key components:
+A simple, scalar, in order, 5 stage pipelined RISC-V RV32I CPU designed for academic purposes, synthesized in **Vivado Design Suite** for the **Artix-7 xc7a50tcsf324-3**. The CPU is described in **Verilog HDL** and includes the following key components:
 
 - **Instruction Memory**: Synthesized as a **ROM** using Distributed Memory via Vivado IP Catalog.
 - **Data Memory**: Synthesized as a **RAM** using BRAM cells via Vivado IP Catalog.
