@@ -29,7 +29,7 @@ module Extend(
         immext = {{12{imm[31]}}, imm[19:12], imm[20], imm[30:21], 1'b0};
       end
 
-      3'b100:
+      3'b100:    //U type
       begin
         immext = {imm[31:12], 12'b000000000000};
       end
