@@ -15,24 +15,24 @@ module HazardControl(
 
     // Forward A operand :
 
-    if ((rs1E == rdM) && RegWriteM && (rs1E != 0))				// Forward from Memory Stage
+    if ((rs1E == rdM) && RegWriteM && (rs1E != 0))		    // Forward from Memory Stage
       ForwardAE = 2'b10;
 
     else if ((rs1E == rdW) && RegWriteW && (rs1E != 0))		// Forward from Writeback Stage
       ForwardAE = 2'b01;
 
-    else																		// No forwarding
+    else												    // No forwarding
       ForwardAE = 2'b00;
 
     // Forward B operand :
 
-    if ((rs2E == rdM) && RegWriteM && (rs2E != 0))				// Forward from Memory Stage
+    if ((rs2E == rdM) && RegWriteM && (rs2E != 0))		    // Forward from Memory Stage
       ForwardBE = 2'b10;
 
     else if ((rs2E == rdW) && RegWriteW && (rs2E != 0))		// Forward from Writeback Stage
       ForwardBE = 2'b01;
 
-    else																		// No forwarding
+    else													// No forwarding
       ForwardBE = 2'b00;
 
     // Stall when a load hazard occurs:
