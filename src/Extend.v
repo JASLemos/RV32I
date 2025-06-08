@@ -34,7 +34,7 @@ module Extend(
         immext = {imm[31:12], 12'b000000000000};
       end
 
-      default:
+      default:    //U type
       begin
         immext = 32'bx;
       end
