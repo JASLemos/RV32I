@@ -41,7 +41,7 @@ module IFU(
 
   assign PC = PCF;
 
-  //	Pipeline Registers
+  // Pipeline Registers
   
     always@(posedge CLK)
     begin
