@@ -18,12 +18,12 @@ A simple, scalar, in order, 5 stage pipelined RISC-V RV32I CPU designed for acad
 
 ## FPGA Implementation Results
 
-The following metrics were collected for the **Artix-7 FPGA** (maximum speed grade of 3):
+The following metrics were collected for the **Artix-7 FPGA** (maximum speed grade of 3, results will vary according to FPGA model and speed grade):
 
 | **Metric**               | **Value**             |
 |--------------------------|-----------------------|
-| **Maximum Clock Frequency** | 83.75 MHz            |
-| **Resource Utilization**   |                       |
+| **Maximum Clock Frequency** | 100 MHz            |
+| **Resource Utilization**   |                     |
 | - LUTs                    | 827                  |
 | - FFs                     | 569                  |
 | - RAMB18K Blocks          | 1                    |
